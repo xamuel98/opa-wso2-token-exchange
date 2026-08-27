@@ -1,0 +1,1 @@
+import{r as o,di as t,j as n,hG as i,dj as g}from"./index.C2yHLfvu.js";const c=o.forwardRef((r,s)=>{var{className:e}=r,a=t(r,["className"]);return n.jsx(i,Object.assign({ref:s,"aria-label":"progress-bar",className:g("oxygen-linear-progress","OxygenLinearProgress-root",e)},a))});export{c as L};

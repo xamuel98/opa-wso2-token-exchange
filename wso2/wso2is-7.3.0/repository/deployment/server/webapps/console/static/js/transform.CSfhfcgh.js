@@ -1,0 +1,1 @@
+import{ds as A,dt as p,du as v,dv as w,dw as t,dx as x,dy as B,dz as F,dA as O,dB as g}from"./index.C2yHLfvu.js";function k(s,i,r){var n=g(s),a=n||A(s)||p(s);if(i=v(i),r==null){var d=s&&s.constructor;a?r=n?new d:[]:w(s)?r=t(d)?x(B(s)):{}:r={}}return(a?F:O)(s,function(e,f,y){return i(r,e,f,y)}),r}export{k as t};

@@ -1,0 +1,1 @@
+import{r as p}from"./index.C2yHLfvu.js";const f=(n,l,u,t)=>p.useMemo(()=>{var i,o,s;if(!n)return null;if(l)return((i=l.find(r=>r.feature===n))==null?void 0:i.flag)??null;if(u&&t){const r=u[t];return r?((s=(o=r.featureFlags)==null?void 0:o.find(c=>c.feature===n))==null?void 0:s.flag)??null:null}return null},[n,t,l,u]);export{f as u};

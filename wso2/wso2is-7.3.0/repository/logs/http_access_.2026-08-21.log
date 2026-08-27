@@ -1,0 +1,4 @@
+127.0.0.1 - - [21/Aug/2026:09:48:32 +0100] GET /carbon/admin/login.jsp HTTP/1.1 200 13409 "-" "curl/8.18.0" 2.981
+127.0.0.1 - - [21/Aug/2026:10:29:10 +0100] GET /carbon/admin/login.jsp HTTP/1.1 200 13409 "-" "curl/8.18.0" 1.266
+127.0.0.1 - - [21/Aug/2026:10:52:49 +0100] GET /carbon/admin/login.jsp HTTP/1.1 200 13409 "-" "curl/8.18.0" 0.084
+127.0.0.1 - - [21/Aug/2026:10:52:49 +0100] GET /carbon/admin/login.jsp HTTP/1.1 200 13410 "-" "curl/8.18.0" 0.014

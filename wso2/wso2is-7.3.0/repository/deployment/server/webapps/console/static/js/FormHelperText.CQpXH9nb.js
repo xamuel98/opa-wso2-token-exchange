@@ -1,0 +1,1 @@
+import{r as a,di as o,j as x,hR as m,dj as l}from"./index.C2yHLfvu.js";const c=a.forwardRef((e,r)=>{var{className:s}=e,t=o(e,["className"]);return x.jsx(m,Object.assign({ref:r,className:l("oxygen-form-helper-text","OxygenFormHelperText-root",s)},t))});export{c as F};

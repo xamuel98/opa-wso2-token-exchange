@@ -1,0 +1,24 @@
+services:
+  opa:
+    image: openpolicyagent/opa:1.4.2
+    container_name: fortis-opa
+    # Bind to localhost only — broker is on the same machine; do not expose publicly.
+    ports:
+      - "127.0.0.1:8181:8181"
+    volumes:
+      - ./policies:/policies:ro
+      - ./data:/data:ro
+    command:
+      - "run"
+      - "--server"
+      - "--addr=0.0.0.0:8181"
+      - "--log-level=info"
+      - "/policies"
+      - "/data/fortis-data.json"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/opa", "version"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s

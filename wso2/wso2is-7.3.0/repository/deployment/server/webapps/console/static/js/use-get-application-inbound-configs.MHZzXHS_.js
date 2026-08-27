@@ -1,0 +1,1 @@
+import{s as r,H as u,a as c}from"./index.C2yHLfvu.js";const l=(n,e,s=!0)=>{const a={headers:{Accept:"application/json","Content-Type":"application/json"},method:u.GET,url:`${r.getState().config.endpoints.applications}/${n}/inbound-protocols/${e}`},{data:t,error:o,isValidating:i,mutate:p}=c(s?a:null);return{data:t,error:o,isLoading:!o&&!t,isValidating:i,mutate:p}};export{l as u};

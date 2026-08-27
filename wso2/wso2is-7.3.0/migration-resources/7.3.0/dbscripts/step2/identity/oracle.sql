@@ -1,0 +1,78 @@
+DECLARE
+    column_count INTEGER;
+    sequence_exists INTEGER;
+    pk_count INTEGER;
+BEGIN
+    -- Create sequence for IDN_OAUTH2_TOKEN_BINDING (must exist before backfill)
+    SELECT COUNT(*)
+    INTO sequence_exists
+    FROM ALL_SEQUENCES
+    WHERE SEQUENCE_OWNER = (SELECT USER FROM DUAL)
+        AND SEQUENCE_NAME = 'IDN_OAUTH2_TOKEN_BINDING_SEQ';
+    IF sequence_exists = 0 THEN
+        EXECUTE IMMEDIATE 'CREATE SEQUENCE IDN_OAUTH2_TOKEN_BINDING_SEQ START WITH 1 INCREMENT BY 1 NOCACHE';
+        DBMS_OUTPUT.PUT_LINE('Sequence IDN_OAUTH2_TOKEN_BINDING_SEQ created.');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Sequence IDN_OAUTH2_TOKEN_BINDING_SEQ already exists. Skipping.');
+    END IF;
+
+    -- Add ID column to IDN_OAUTH2_TOKEN_BINDING
+    SELECT COUNT(*)
+    INTO column_count
+    FROM ALL_TAB_COLUMNS
+    WHERE OWNER = (SELECT USER FROM DUAL)
+        AND TABLE_NAME = 'IDN_OAUTH2_TOKEN_BINDING'
+        AND COLUMN_NAME = 'ID';
+    IF column_count = 0 THEN
+        -- Add as nullable first so existing rows are not rejected
+        EXECUTE IMMEDIATE 'ALTER TABLE IDN_OAUTH2_TOKEN_BINDING ADD ID INTEGER NULL';
+        -- Backfill existing rows with unique sequence values
+        EXECUTE IMMEDIATE 'UPDATE IDN_OAUTH2_TOKEN_BINDING SET ID = IDN_OAUTH2_TOKEN_BINDING_SEQ.NEXTVAL WHERE ID IS NULL';
+        -- Now enforce NOT NULL
+        EXECUTE IMMEDIATE 'ALTER TABLE IDN_OAUTH2_TOKEN_BINDING MODIFY ID INTEGER NOT NULL';
+        DBMS_OUTPUT.PUT_LINE('ID column added to IDN_OAUTH2_TOKEN_BINDING.');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('ID column already exists on IDN_OAUTH2_TOKEN_BINDING. Skipping.');
+    END IF;
+
+    -- Add primary key to IDN_OAUTH2_TOKEN_BINDING
+    SELECT COUNT(*)
+    INTO pk_count
+    FROM ALL_CONSTRAINTS
+    WHERE OWNER = (SELECT USER FROM DUAL)
+        AND TABLE_NAME = 'IDN_OAUTH2_TOKEN_BINDING'
+        AND CONSTRAINT_TYPE = 'P';
+    IF pk_count = 0 THEN
+        EXECUTE IMMEDIATE 'ALTER TABLE IDN_OAUTH2_TOKEN_BINDING ADD CONSTRAINT PK_TOKEN_BINDING PRIMARY KEY (ID)';
+        DBMS_OUTPUT.PUT_LINE('Primary key PK_TOKEN_BINDING added to IDN_OAUTH2_TOKEN_BINDING.');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Primary key already exists on IDN_OAUTH2_TOKEN_BINDING. Skipping.');
+    END IF;
+END;
+/
+
+DECLARE
+    trig_exists NUMBER;
+BEGIN
+    -- Create trigger for IDN_OAUTH2_TOKEN_BINDING
+    SELECT COUNT(*)
+    INTO trig_exists
+    FROM ALL_TRIGGERS
+    WHERE OWNER = (SELECT USER
+        FROM DUAL)
+        AND TRIGGER_NAME = 'IDN_OAUTH2_TOKEN_BINDING_TRIG';
+    IF trig_exists = 0 THEN
+        EXECUTE IMMEDIATE '
+            CREATE OR REPLACE TRIGGER IDN_OAUTH2_TOKEN_BINDING_TRIG
+            BEFORE INSERT ON IDN_OAUTH2_TOKEN_BINDING
+            REFERENCING NEW AS NEW
+            FOR EACH ROW
+            BEGIN
+                SELECT IDN_OAUTH2_TOKEN_BINDING_SEQ.nextval INTO :NEW.ID FROM dual;
+            END;';
+        DBMS_OUTPUT.PUT_LINE('Trigger IDN_OAUTH2_TOKEN_BINDING_TRIG created.');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Trigger IDN_OAUTH2_TOKEN_BINDING_TRIG already exists. Skipping.');
+    END IF;
+END;
+/

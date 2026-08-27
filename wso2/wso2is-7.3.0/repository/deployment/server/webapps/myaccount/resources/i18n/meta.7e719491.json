@@ -1,0 +1,297 @@
+{
+    "en-US": {
+        "code": "en-US",
+        "direction": "ltr",
+        "flag": "us",
+        "name": "English (United States)",
+        "namespaces": [
+            "common",
+            "console",
+            "myAccount",
+            "extensions",
+            "userstores",
+            "validation",
+            "impersonation",
+            "issuerUsageScope",
+            "user",
+            "users",
+            "transferList",
+            "governanceConnectors",
+            "groups",
+            "pages",
+            "idvp",
+            "invite",
+            "parentOrgInvitations",
+            "oidcScopes",
+            "onboarded",
+            "organizationDiscovery",
+            "organizations",
+            "authenticationFlow",
+            "remoteFetch",
+            "roles",
+            "applicationRoles",
+            "serverConfigs",
+            "saml2Config",
+            "sessionManagement",
+            "wsFederationConfig",
+            "insights",
+            "smsProviders",
+            "claims",
+            "emailLocale",
+            "helpPanel",
+            "suborganizations",
+            "consoleSettings",
+            "secrets",
+            "branding",
+            "emailTemplates",
+            "certificates",
+            "authenticationProvider",
+            "applications",
+            "idp",
+            "apiResources",
+            "ai",
+            "actions",
+            "tenants",
+            "smsTemplates",
+            "customAuthenticator",
+            "policyAdministration",
+            "remoteUserStores",
+            "rules",
+            "pushProviders",
+            "externalApiAuthentication",
+            "webhooks",
+            "approvalWorkflows",
+            "agents",
+            "flows",
+            "commonUsers",
+            "verifiableCredentials",
+            "customerDataService",
+            "consents"
+        ],
+        "paths": {
+            "common": "en-US/portals/common.1befc803.json",
+            "console": "en-US/portals/console.5fe77eac.json",
+            "myAccount": "en-US/portals/myAccount.14e204f6.json",
+            "userstores": "en-US/portals/userstores.b1fd40cd.json",
+            "validation": "en-US/portals/validation.89868972.json",
+            "transferList": "en-US/portals/transferList.429255b9.json",
+            "user": "en-US/portals/user.1c4a06b3.json",
+            "users": "en-US/portals/users.9925024b.json",
+            "governanceConnectors": "en-US/portals/governanceConnectors.d746d2f1.json",
+            "groups": "en-US/portals/groups.bbe3902a.json",
+            "pages": "en-US/portals/pages.ade555a2.json",
+            "idvp": "en-US/portals/idvp.df6d301c.json",
+            "invite": "en-US/portals/invite.0d7dc35f.json",
+            "parentOrgInvitations": "en-US/portals/parentOrgInvitations.32630e25.json",
+            "oidcScopes": "en-US/portals/oidcScopes.11c9dc92.json",
+            "onboarded": "en-US/portals/onboarded.c81c409d.json",
+            "organizationDiscovery": "en-US/portals/organizationDiscovery.9918b85b.json",
+            "organizations": "en-US/portals/organizations.b8c3ce82.json",
+            "authenticationFlow": "en-US/portals/authenticationFlow.469a7345.json",
+            "remoteFetch": "en-US/portals/remoteFetch.0aa5dbc7.json",
+            "roles": "en-US/portals/roles.15404c8c.json",
+            "applicationRoles": "en-US/portals/applicationRoles.e1083416.json",
+            "serverConfigs": "en-US/portals/serverConfigs.76f3af75.json",
+            "saml2Config": "en-US/portals/saml2Config.0183ca8b.json",
+            "sessionManagement": "en-US/portals/sessionManagement.f6373aad.json",
+            "wsFederationConfig": "en-US/portals/wsFederationConfig.edc069fc.json",
+            "insights": "en-US/portals/insights.2b0b9bd2.json",
+            "smsProviders": "en-US/portals/smsProviders.a6428cc5.json",
+            "claims": "en-US/portals/claims.1d595167.json",
+            "emailLocale": "en-US/portals/emailLocale.e81e7adc.json",
+            "helpPanel": "en-US/portals/helpPanel.c0fae8cd.json",
+            "suborganizations": "en-US/portals/suborganizations.5175a759.json",
+            "consoleSettings": "en-US/portals/consoleSettings.1a67c56f.json",
+            "secrets": "en-US/portals/secrets.8157b624.json",
+            "branding": "en-US/portals/branding.befed596.json",
+            "emailTemplates": "en-US/portals/emailTemplates.4a72b2b3.json",
+            "certificates": "en-US/portals/certificates.3a8d0985.json",
+            "authenticationProvider": "en-US/portals/authenticationProvider.1ed26516.json",
+            "applications": "en-US/portals/applications.ff9ef8a7.json",
+            "idp": "en-US/portals/idp.b3e721a2.json",
+            "apiResources": "en-US/portals/apiResources.094e75ef.json",
+            "ai": "en-US/portals/ai.c6c9937d.json",
+            "templateCore": "en-US/portals/templateCore.2f93c448.json",
+            "applicationTemplates": "en-US/portals/applicationTemplates.fe693c69.json",
+            "impersonation": "en-US/portals/impersonation.a8b26800.json",
+            "issuerUsageScope": "en-US/portals/issuerUsageScope.ca66dd46.json",
+            "actions": "en-US/portals/actions.1238addd.json",
+            "tenants": "en-US/portals/tenants.42214513.json",
+            "smsTemplates": "en-US/portals/smsTemplates.8186f44d.json",
+            "policyAdministration": "en-US/portals/policyAdministration.5a397640.json",
+            "remoteUserStores": "en-US/portals/remoteUserStores.f4b8d5b6.json",
+            "rules": "en-US/portals/rules.26bf3b96.json",
+            "customAuthenticator": "en-US/portals/customAuthenticator.7f242299.json",
+            "pushProviders": "en-US/portals/pushProviders.adfac048.json",
+            "externalApiAuthentication": "en-US/portals/externalApiAuthentication.bb2cc814.json",
+            "webhooks": "en-US/portals/webhooks.b9a135ec.json",
+            "approvalWorkflows": "en-US/portals/approvalWorkflows.4630ec33.json",
+            "workflowRequests": "en-US/portals/workflowRequests.a28a1a8a.json",
+            "agents": "en-US/portals/agents.84eaf8d2.json",
+            "flows": "en-US/portals/flows.4a93fc9d.json",
+            "commonUsers": "en-US/portals/commonUsers.42923ec2.json",
+            "verifiableCredentials": "en-US/portals/verifiableCredentials.0779885b.json",
+            "customerDataService": "en-US/portals/customerDataService.90ef45e5.json",
+            "consents": "en-US/portals/consents.3c876e48.json",
+            "extensions": "en-US/portals/extensions.{hash}.json"
+        }
+    },
+    "fr-FR": {
+        "code": "fr-FR",
+        "direction": "ltr",
+        "flag": "fr",
+        "name": "Français (France)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "fr-FR/portals/common.b929d343.json",
+            "myAccount": "fr-FR/portals/myAccount.f6d43500.json",
+            "commonUsers": "fr-FR/portals/commonUsers.89f72387.json",
+            "extensions": "fr-FR/portals/extensions.{hash}.json"
+        }
+    },
+    "pt-PT": {
+        "code": "pt-PT",
+        "direction": "ltr",
+        "flag": "pt",
+        "name": "Português (Portugal)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "pt-PT/portals/common.36af08f2.json",
+            "myAccount": "pt-PT/portals/myAccount.6935b2a9.json",
+            "commonUsers": "pt-PT/portals/commonUsers.1acb6702.json",
+            "extensions": "pt-PT/portals/extensions.{hash}.json"
+        }
+    },
+    "pt-BR": {
+        "code": "pt-BR",
+        "direction": "ltr",
+        "flag": "br",
+        "name": "Português (Brazil)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "pt-BR/portals/common.2608e866.json",
+            "myAccount": "pt-BR/portals/myAccount.fde79334.json",
+            "commonUsers": "pt-BR/portals/commonUsers.eb3145a6.json",
+            "extensions": "pt-BR/portals/extensions.{hash}.json"
+        }
+    },
+    "si-LK": {
+        "code": "si-LK",
+        "direction": "ltr",
+        "flag": "lk",
+        "name": "සිංහල (Sri Lanka)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "si-LK/portals/common.82772120.json",
+            "myAccount": "si-LK/portals/myAccount.5e39a77f.json",
+            "commonUsers": "si-LK/portals/commonUsers.0461d897.json",
+            "extensions": "si-LK/portals/extensions.{hash}.json"
+        }
+    },
+    "es-ES": {
+        "code": "es-ES",
+        "flag": "es",
+        "name": "Español (España)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "es-ES/portals/common.1bcbcd7d.json",
+            "myAccount": "es-ES/portals/myAccount.5df8ea09.json",
+            "commonUsers": "es-ES/portals/commonUsers.029d426b.json",
+            "extensions": "es-ES/portals/extensions.{hash}.json"
+        }
+    },
+    "de-DE": {
+        "code": "de-DE",
+        "flag": "de",
+        "name": "Deutsch (Deutschland)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "de-DE/portals/common.f802d49e.json",
+            "myAccount": "de-DE/portals/myAccount.f3184188.json",
+            "commonUsers": "de-DE/portals/commonUsers.fbe08fd7.json",
+            "extensions": "de-DE/portals/extensions.{hash}.json"
+        }
+    },
+    "ja-JP": {
+        "code": "ja-JP",
+        "direction": "ltr",
+        "flag": "jp",
+        "name": "日本語 (日本)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "ja-JP/portals/common.1d4964b6.json",
+            "myAccount": "ja-JP/portals/myAccount.38964ace.json",
+            "commonUsers": "ja-JP/portals/commonUsers.7908baa4.json",
+            "extensions": "ja-JP/portals/extensions.{hash}.json"
+        }
+    },
+    "zh-CN": {
+        "code": "zh-CN",
+        "direction": "ltr",
+        "flag": "cn",
+        "name": "中文 (中国)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "zh-CN/portals/common.73330b8e.json",
+            "myAccount": "zh-CN/portals/myAccount.8eec1f07.json",
+            "commonUsers": "zh-CN/portals/commonUsers.0e49e27b.json",
+            "extensions": "zh-CN/portals/extensions.{hash}.json"
+        }
+    },
+    "nl-NL": {
+        "code": "nl-NL",
+        "direction": "ltr",
+        "flag": "nl",
+        "name": "Nederlands (Nederland)",
+        "namespaces": [
+            "common",
+            "myAccount",
+            "extensions",
+            "commonUsers"
+        ],
+        "paths": {
+            "common": "nl-NL/portals/common.f48310c4.json",
+            "myAccount": "nl-NL/portals/myAccount.bab8c9ba.json",
+            "commonUsers": "nl-NL/portals/commonUsers.7d5ac41f.json",
+            "extensions": "nl-NL/portals/extensions.{hash}.json"
+        }
+    }
+}

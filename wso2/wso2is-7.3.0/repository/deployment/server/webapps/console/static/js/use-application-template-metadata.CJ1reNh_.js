@@ -1,0 +1,1 @@
+import{r as a}from"./index.C2yHLfvu.js";const e=a.createContext(null);e.displayName="ApplicationTemplateMetadataContext";const p=()=>{const t=a.useContext(e);if(t===void 0)throw new Error("useApplicationTemplateMetadata hook must be used within a ApplicationTemplateMetadataProvider");return t};export{e as A,p as u};

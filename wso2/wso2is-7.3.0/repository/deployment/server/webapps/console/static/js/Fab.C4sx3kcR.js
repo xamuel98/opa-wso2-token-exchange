@@ -1,0 +1,1 @@
+import{r as t,di as o,j as m,dj as x}from"./index.C2yHLfvu.js";import{F as c}from"./Fab.D3mk4rfr.js";const b=t.forwardRef((s,a)=>{var{className:r}=s,e=o(s,["className"]);return m.jsx(c,Object.assign({ref:a,className:x("oxygen-fab","OxygenFab-root",r)},e))});export{b as F};

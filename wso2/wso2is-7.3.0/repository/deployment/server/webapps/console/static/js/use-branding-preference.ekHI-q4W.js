@@ -1,0 +1,1 @@
+import{r}from"./index.C2yHLfvu.js";import{c as n}from"./branding-preference-provider.90jienNU.js";const i=()=>{const e=r.useContext(n);if(e===void 0)throw new Error("UseBrandingPreference must be used within a BrandingPreferenceProvider");return e};export{i as u};

@@ -1,0 +1,1 @@
+import{s as u,H as p,a as d}from"./index.C2yHLfvu.js";const g=(s,o)=>{const n={headers:{"Content-Type":"application/json"},method:p.GET,url:`${u.getState().config.endpoints.identityProviders}/${s}/groups`},{data:t,error:e,isValidating:r,mutate:i,response:a}=d(o?n:null);return{data:t,error:e,isLoading:!e&&!t,isValidating:r,mutate:i,response:a}};export{g as u};

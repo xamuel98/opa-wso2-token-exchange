@@ -1,0 +1,43 @@
+{
+  "flowExecution" : {
+      "enableLegacyFlows" : {
+          "timestampReference" : "2026-01-01T00:00:00Z",
+          "targetValue" : true,
+          "defaultValue" : false
+      },
+      "enableLegacySelfRegistrationFlow" : {
+            "timestampReference" : "2026-01-01T00:00:00Z",
+            "targetValue" : true,
+            "defaultValue" : false
+      },
+      "enableLegacyInvitedUserRegistrationFlow" : {
+            "timestampReference" : "2026-01-01T00:00:00Z",
+            "targetValue" : true,
+            "defaultValue" : false
+      },
+      "enableLegacyPasswordRecoveryFlow" : {
+            "timestampReference" : "2026-01-01T00:00:00Z",
+            "targetValue" : true,
+            "defaultValue" : false
+      }
+  },
+  "scim2": {
+    "disableBasicAuthForMeEndpoint" : {
+        "timestampReference" : "2026-04-23T00:00:00Z",
+        "targetValue" : false,
+        "defaultValue" : true
+    },
+    "disablePasswordUpdateInMeEndpoint" : {
+        "timestampReference" : "2026-04-23T00:00:00Z",
+        "targetValue" : false,
+        "defaultValue" : true
+    }
+  },
+  "webhook": {
+    "registration.skipSignupConfirmationIfAccountLockDisabled" : {
+        "timestampReference" : "2026-05-01T00:00:00Z",
+        "targetValue" : false,
+        "defaultValue" : true
+    }
+  }
+}

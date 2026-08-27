@@ -1,0 +1,1 @@
+import{r as a,di as o,j as n,px as x,dj as l}from"./index.C2yHLfvu.js";const m=a.forwardRef((s,e)=>{var{className:r}=s,t=o(s,["className"]);return n.jsx(x,Object.assign({ref:e,className:l("oxygen-skeleton","OxygenSkeleton-root",r)},t))});export{m as S};

@@ -1,0 +1,5 @@
+{
+  "password.reset.success.heading": "Controleer uw e-mail",
+  "password.reset.success.body": "Er is een e-mail met een koppeling en instructies voor het opnieuw instellen van uw wachtwoord naar uw e-mailadres verzonden.\\n\\nNog geen e-mail ontvangen? Uw e-mailadres is mogelijk niet geregistreerd of u heeft zich geregistreerd via een sociaal account met het opgegeven e-mailadres. Maak een account aan of gebruik een andere aanmeldoptie.",
+  "password.reset.success.action": "Terug naar toepassing"
+}

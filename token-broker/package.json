@@ -1,0 +1,26 @@
+{
+  "name": "wso2-token-broker",
+  "version": "1.0.0",
+  "description": "Local BFF token broker for WSO2/Asgardeo token exchange (keeps Standard App client secret server-side)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "wso2",
+    "oauth",
+    "token-exchange",
+    "bff"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

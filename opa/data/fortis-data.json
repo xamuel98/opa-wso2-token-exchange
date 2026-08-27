@@ -1,0 +1,29 @@
+{
+  "fortis": {
+    "tenant": "ibileltdofficial",
+    "engineering": {
+      "allowed_modules": [
+        "home",
+        "inbox",
+        "groups",
+        "loans",
+        "investment",
+        "collaterals-transfers-collections",
+        "products",
+        "organization",
+        "operations",
+        "settings",
+        "system-administration",
+        "users-templates",
+        "tasks-approvals"
+      ],
+      "denied_modules": [
+        "centers",
+        "clients",
+        "savings",
+        "accounting",
+        "reports"
+      ]
+    }
+  }
+}

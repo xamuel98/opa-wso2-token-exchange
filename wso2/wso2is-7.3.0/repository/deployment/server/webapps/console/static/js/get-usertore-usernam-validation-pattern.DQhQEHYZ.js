@@ -1,0 +1,1 @@
+import{S as e}from"./user-store-utils.ay2FG-hU.js";import{h as t,ba as s}from"./index.C2yHLfvu.js";const i=async()=>{try{let r=await e.getUserStoreRegEx(t.primaryUserstoreName,s.USERNAME_JAVA_REGEX);return r.startsWith("^")||(r="^"+r),r.endsWith("$")||(r=r+"$"),r}catch{return Promise.reject("")}};export{i as g};

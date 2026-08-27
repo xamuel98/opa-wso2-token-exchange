@@ -1,0 +1,1 @@
+import{s as p,H as u,a as c}from"./index.C2yHLfvu.js";const d=(t,o=!0)=>{const e={headers:{Accept:"application/json","Content-Type":"application/json"},method:u.GET,params:{flowType:t},url:p.getState().config.endpoints.flowConfiguration},{data:s,error:a,isLoading:n,isValidating:i,mutate:r}=c(o?e:null);return{data:s,error:a,isLoading:n,isValidating:i,mutate:r}};export{d as u};

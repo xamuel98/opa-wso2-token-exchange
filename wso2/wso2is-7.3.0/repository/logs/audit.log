@@ -1,0 +1,1 @@
+TID: [] [2026-08-21 10:28:45,781] []  INFO {AUDIT_LOG} - Initiator=w**************r Action=Get-User-Claim-Value Target=a***n Data={"Claim Value":["d**********************************2"],"Claim":"urn:ietf:params:scim:schemas:core:2.0:id","Profile":"default"} Outcome=Success

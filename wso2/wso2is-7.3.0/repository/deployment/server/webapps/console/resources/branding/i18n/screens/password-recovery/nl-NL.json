@@ -1,0 +1,12 @@
+{
+  "password.recovery.heading": "Wachtwoord vergeten?",
+  "password.recovery.body": "Geen zorgen. Voer uw gebruikersnaam in om het opnieuw instellen van uw wachtwoord te starten.",
+  "password.recovery.identifier.input.placeholder": "Gebruikersnaam",
+  "password.recovery.button.email.link": "Herstelkoppeling verzenden",
+  "password.recovery.button.email.otp": "E-mail OTP verzenden",
+  "password.recovery.button.smsotp": "SMS OTP verzenden",
+  "password.recovery.button.multi": "Doorgaan",
+  "send.email.link": "Herstelkoppeling via e-mail verzenden",
+  "send.email.otp": "OTP via e-mail verzenden",
+  "send.code.via.sms": "OTP via SMS verzenden"
+}

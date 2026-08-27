@@ -1,0 +1,7 @@
+{
+  "username.recovery.email.success.heading": "Controleer uw e-mail",
+  "username.recovery.sms.success.heading": "Controleer uw mobiele telefoon",
+  "username.recovery.email.success.body": "Details voor herstel van gebruikersnaam zijn naar het opgegeven e-mailadres verzonden. Als u de e-mail niet heeft ontvangen, probeert u het opnieuw met andere gegevens.",
+  "username.recovery.sms.success.body": "Details voor herstel van gebruikersnaam zijn naar het opgegeven mobiele nummer verzonden. Als u de sms niet heeft ontvangen, probeert u het opnieuw met andere gegevens.",
+  "username.recovery.success.action": "Terug naar toepassing"
+}

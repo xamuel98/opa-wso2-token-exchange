@@ -1,0 +1,1 @@
+const e=class e{constructor(){}};e.GROUP_VIEW_PATH="/groups/",e.FEATURE_DICTIONARY=new Map().set("GROUP_CREATE","groups.create").set("GROUP_UPDATE","groups.update").set("GROUP_DELETE","groups.delete").set("GROUP_READ","groups.read");let s=e;export{s as G};

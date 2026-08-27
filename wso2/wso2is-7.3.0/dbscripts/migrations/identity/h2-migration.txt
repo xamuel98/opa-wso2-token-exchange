@@ -1,0 +1,29 @@
+#update 18165
+
+#This contains the database changes required to apply token binding support for non-persistent access token scenarios.
+
+CREATE TABLE IF NOT EXISTS IDN_OAUTH2_REFRESH_TOKEN_BINDING (
+    REFRESH_TOKEN_ID VARCHAR (255) NOT NULL,
+    TOKEN_BINDING_TYPE VARCHAR (32) NOT NULL,
+    TOKEN_BINDING_REF VARCHAR (32) NOT NULL,
+    TOKEN_BINDING_VALUE VARCHAR (1024) NOT NULL,
+    TENANT_ID INTEGER DEFAULT -1,
+    PRIMARY KEY (REFRESH_TOKEN_ID, TOKEN_BINDING_TYPE),
+    UNIQUE (REFRESH_TOKEN_ID, TOKEN_BINDING_TYPE, TOKEN_BINDING_VALUE),
+    FOREIGN KEY (REFRESH_TOKEN_ID) REFERENCES IDN_OAUTH2_REFRESH_TOKEN(REFRESH_TOKEN_ID) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS IDX_REFRESH_TOKEN_BIND ON IDN_OAUTH2_REFRESH_TOKEN_BINDING (TOKEN_BINDING_REF);
+CREATE INDEX IF NOT EXISTS IDX_REFRESH_TK_VALUE_TYPE ON IDN_OAUTH2_REFRESH_TOKEN_BINDING (TOKEN_BINDING_VALUE, TOKEN_BINDING_TYPE);
+
+#update 18910
+
+#This contains the database changes required for the consent management feature.
+
+INSERT INTO SCOPE (ID, API_ID, NAME, DISPLAY_NAME, TENANT_ID, DESCRIPTION)
+SELECT RANDOM_UUID(),(SELECT ID FROM API_RESOURCE WHERE IDENTIFIER = '/api/server/v1/branding-preference'), 'internal_branding_preference_policy_update', 'Update Branding Policy URLs', NULL, 'Update policy URLs in branding preferences of the organization (root)'
+WHERE NOT EXISTS (SELECT 1 FROM SCOPE WHERE NAME = 'internal_branding_preference_policy_update');
+
+INSERT INTO SCOPE (ID, API_ID, NAME, DISPLAY_NAME, TENANT_ID, DESCRIPTION)
+SELECT RANDOM_UUID(),(SELECT ID FROM API_RESOURCE WHERE IDENTIFIER = '/o/api/server/v1/branding-preference'), 'internal_org_branding_preference_policy_update', 'Update Branding Policy URLs', NULL, 'Update policy URLs in branding preferences of the organization'
+WHERE NOT EXISTS (SELECT 1 FROM SCOPE WHERE NAME = 'internal_org_branding_preference_policy_update');

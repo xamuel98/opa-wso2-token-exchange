@@ -1,0 +1,1 @@
+import{r as n,j as l,bc as s,A as r}from"./index.C2yHLfvu.js";const c=()=>{const[e,t]=n.useState(null);return[e,t,e&&l.jsxs(s,{color:e.level===r.SUCCESS?"olive":e.level===r.WARNING?"yellow":e.level===r.ERROR?"red":e.level===r.INFO?"teal":null,children:[l.jsx(s.Header,{children:e.message}),l.jsx("p",{children:e.description})]})]};export{c as u};

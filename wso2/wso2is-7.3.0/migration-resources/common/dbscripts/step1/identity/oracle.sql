@@ -1,0 +1,21 @@
+CREATE OR REPLACE PROCEDURE ALTER_SP_APP
+IS
+  BEGIN
+    declare
+      column_count INTEGER;
+    begin
+      select count(*) INTO column_count
+      FROM ALL_TAB_COLUMNS
+      WHERE OWNER = (SELECT USER FROM DUAL)
+        AND TABLE_NAME = 'SP_APP'
+        AND COLUMN_NAME = 'VERSION';
+      IF column_count = 0 THEN
+        EXECUTE IMMEDIATE 'ALTER TABLE SP_APP ADD (VERSION VARCHAR(255) DEFAULT ''v1.0.0'' NOT NULL)';
+      END IF;
+    end;
+  END;
+/
+CALL ALTER_SP_APP()
+/
+DROP PROCEDURE ALTER_SP_APP
+/

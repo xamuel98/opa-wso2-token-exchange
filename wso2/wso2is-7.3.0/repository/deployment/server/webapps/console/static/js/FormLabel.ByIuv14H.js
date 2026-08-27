@@ -1,0 +1,1 @@
+import{r as o,di as t,j as m,ih as l,dj as x}from"./index.C2yHLfvu.js";const n=o.forwardRef((s,r)=>{var{className:a}=s,e=t(s,["className"]);return m.jsx(l,Object.assign({ref:r,className:x("oxygen-form-label","OxygenFormLabel-root",a)},e))});export{n as F};

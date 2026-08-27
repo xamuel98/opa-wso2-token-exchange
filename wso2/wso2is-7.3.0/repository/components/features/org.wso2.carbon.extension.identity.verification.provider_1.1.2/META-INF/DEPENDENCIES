@@ -1,0 +1,65 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - Identity Verification Provider Feature
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org/)
+  - OSGi service http APIs (https://projects.eclipse.org/projects/eclipse.equinox) org.eclipse.platform:org.eclipse.equinox.http.service.api:jar:1.2.2
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/legal/epl-2.0/)
+  - OSGi System Bundle (https://projects.eclipse.org/projects/eclipse.equinox) org.eclipse.platform:org.eclipse.osgi:jar:3.19.0
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/legal/epl-2.0/)
+  - OSGi Release 4.2.0 Services (https://projects.eclipse.org/projects/eclipse.equinox) org.eclipse.platform:org.eclipse.osgi.services:jar:3.12.0
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/legal/epl-2.0/)
+
+From: 'Eclipse Foundation'
+  - org.osgi:org.osgi.service.cm (https://docs.osgi.org/) org.osgi:org.osgi.service.cm:jar:1.6.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.component (https://docs.osgi.org/) org.osgi:org.osgi.service.component:jar:1.5.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.device (https://docs.osgi.org/) org.osgi:org.osgi.service.device:jar:1.1.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.event (https://docs.osgi.org/) org.osgi:org.osgi.service.event:jar:1.4.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.http.whiteboard (https://docs.osgi.org/) org.osgi:org.osgi.service.http.whiteboard:jar:1.1.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.metatype (https://docs.osgi.org/) org.osgi:org.osgi.service.metatype:jar:1.4.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.upnp (https://docs.osgi.org/) org.osgi:org.osgi.service.upnp:jar:1.2.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.useradmin (https://docs.osgi.org/) org.osgi:org.osgi.service.useradmin:jar:1.1.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:org.osgi.service.wireadmin (https://docs.osgi.org/) org.osgi:org.osgi.service.wireadmin:jar:1.0.2
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+  - org.osgi:osgi.annotation (https://docs.osgi.org/) org.osgi:osgi.annotation:jar:8.0.1
+    License: Apache-2.0  (https://opensource.org/licenses/Apache-2.0)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty :: Servlet API and Schemas for JPMS and OSGi (https://eclipse.org/jetty/jetty-servlet-api) org.eclipse.jetty.toolchain:jetty-servlet-api:jar:4.0.6
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'OSGi Alliance' (http://www.osgi.org/)
+  - org.osgi:org.osgi.namespace.extender (http://www.osgi.org/) org.osgi:org.osgi.namespace.extender:jar:1.0.1
+    License: Apache License, Version 2.0  (http://opensource.org/licenses/apache2.0.php)
+  - org.osgi:org.osgi.namespace.implementation (http://www.osgi.org/) org.osgi:org.osgi.namespace.implementation:jar:1.0.0
+    License: Apache License, Version 2.0  (http://opensource.org/licenses/apache2.0.php)
+  - org.osgi:org.osgi.service.provisioning (http://www.osgi.org/) org.osgi:org.osgi.service.provisioning:jar:1.2.0
+    License: Apache License, Version 2.0  (http://opensource.org/licenses/apache2.0.php)
+  - org.osgi:org.osgi.util.function (http://www.osgi.org/) org.osgi:org.osgi.util.function:jar:1.0.0
+    License: Apache License, Version 2.0  (http://opensource.org/licenses/apache2.0.php)
+  - org.osgi:org.osgi.util.promise (http://www.osgi.org/) org.osgi:org.osgi.util.promise:jar:1.0.0
+    License: Apache License, Version 2.0  (http://opensource.org/licenses/apache2.0.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 Carbon - Identity Verification Provider (http://wso2.org) org.wso2.carbon.extension.identity.verification:org.wso2.carbon.extension.identity.verification.provider:bundle:1.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

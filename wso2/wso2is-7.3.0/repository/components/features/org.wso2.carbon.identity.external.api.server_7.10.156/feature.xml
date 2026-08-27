@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.external.api.server" label="External API Framework Server Feature" provider-name="%providerName" version="7.10.156">
+  <description>This feature contains the core bundles required for External API Framework</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.external.api.token.handler" unpack="false" version="7.10.156"/>
+  <plugin id="org.wso2.carbon.identity.external.api.client" unpack="false" version="7.10.156"/>
+</feature>

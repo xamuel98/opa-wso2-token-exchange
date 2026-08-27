@@ -1,0 +1,1 @@
+import{s as i,H as p,a as u}from"./index.C2yHLfvu.js";const d=(t=!0)=>{const e={headers:{Accept:"application/json","Content-Type":"application/json"},method:p.GET,url:`${i.getState().config.endpoints.userStores}/meta/types`},{data:s,error:o,isLoading:a,isValidating:n,mutate:r}=u(t?e:null);return{data:s,error:o,isLoading:a,isValidating:n,mutate:r}};export{d as u};

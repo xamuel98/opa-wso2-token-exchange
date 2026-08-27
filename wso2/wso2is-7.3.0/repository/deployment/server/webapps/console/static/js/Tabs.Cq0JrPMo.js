@@ -1,0 +1,1 @@
+import{r as o,di as x,j as s,f3 as c,dj as i,hP as j}from"./index.C2yHLfvu.js";import{a as m}from"./Tabs.CNeS8FG0.js";const f=o.forwardRef((a,r)=>{var{className:e}=a,t=x(a,["className"]);return s.jsxs(c,Object.assign({className:i("oxygen-tabs","OxygenTabs-root",e)},{children:[s.jsx(m,Object.assign({ref:r},t)),s.jsx(j,{})]}))});export{f as T};

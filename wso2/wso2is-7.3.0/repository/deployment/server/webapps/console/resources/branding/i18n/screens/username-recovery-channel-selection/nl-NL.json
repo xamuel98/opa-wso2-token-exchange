@@ -1,0 +1,8 @@
+{
+  "username.recovery.channel.selection.heading": "Gebruikersnaam herstellen",
+  "username.recovery.channel.selection.body": "Selecteer een hersteloptie",
+  "send.username.via.email": "Gebruikersnaam via e-mail verzenden",
+  "send.username.via.sms": "Gebruikersnaam via SMS verzenden",
+  "username.recovery.channel.selection.next.button": "Volgende",
+  "username.recovery.channel.selection.cancel.button": "Annuleren"
+}

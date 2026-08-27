@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.query.saml.server" label="Identity SAML Assertion Query Feature" provider-name="%providerName" version="5.12.5">
+  <description>This feature contains the core bundles required for SAML Assertion Query profile</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.query.saml" unpack="false" version="5.12.5"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.saml.common.util" match="compatible" version="1.6.0"/>
+    <import feature="org.wso2.carbon.identity.sso.saml.server" match="compatible" version="5.12.5"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="greaterOrEqual" version="7.10.73"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.10.37"/>
+  </require>
+</feature>

@@ -1,0 +1,1 @@
+import{bv as r,bw as o,bx as e}from"./index.C2yHLfvu.js";import{S as s}from"./report-icon.CblcMneq.js";import{S as n}from"./spin-wheel-icon.DYiMeYtK.js";const m=()=>({general:e,groups:o,roles:n,summary:s,user:r});export{m as g};

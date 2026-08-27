@@ -1,0 +1,42 @@
+TID: [] [] [2026-08-20 16:07:04,827] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2026-08-20 16:07:05,207] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2026-08-20 16:07:05,207] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 7.0.0-29-generic, amd64
+TID: [] [] [2026-08-20 16:07:05,208] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /home/seyi-a/.jdks/jdk-21.0.12+8
+TID: [] [] [2026-08-20 16:07:05,208] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 21.0.12
+TID: [] [] [2026-08-20 16:07:05,208] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 21.0.12+8-LTS,Eclipse Adoptium
+TID: [] [] [2026-08-20 16:07:05,208] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/seyi-a/DevFactory/wso2/wso2is-7.3.0
+TID: [] [] [2026-08-20 16:07:05,209] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/seyi-a/DevFactory/wso2/wso2is-7.3.0/tmp
+TID: [] [] [2026-08-20 16:07:05,209] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : seyi-a, en-US, Africa/Lagos
+TID: [] [] [2026-08-20 16:07:10,528] []  WARN {org.apache.tomcat.util.net.SSLHostConfig} - The TLS 1.3 cipher suite [TLS_AES_128_GCM_SHA256] included in the TLS 1.2 and below ciphers list will be removed from the TLS 1.2 ciphers list and added to the end of the TLS 1.3 cipher suite list
+TID: [] [] [2026-08-20 16:07:10,530] []  WARN {org.apache.tomcat.util.net.SSLHostConfig} - The TLS 1.3 cipher suite [TLS_AES_256_GCM_SHA384] included in the TLS 1.2 and below ciphers list will be removed from the TLS 1.2 ciphers list and added to the end of the TLS 1.3 cipher suite list
+TID: [] [] [2026-08-20 16:07:10,531] []  WARN {org.apache.tomcat.util.net.SSLHostConfig} - The TLS 1.3 cipher suite [TLS_CHACHA20_POLY1305_SHA256] included in the TLS 1.2 and below ciphers list will be removed from the TLS 1.2 ciphers list and added to the end of the TLS 1.3 cipher suite list
+TID: [] [] [2026-08-20 16:07:11,715] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2026-08-20 16:07:15,962] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/seyi-a/DevFactory/wso2/wso2is-7.3.0/repository/deployment/server/
+TID: [] [] [2026-08-20 16:07:15,990] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2026-08-20 16:07:16,002] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2026-08-20 16:07:19,645] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2026-08-20 16:07:23,983] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [] [] [2026-08-20 16:07:24,229] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2026-08-20 16:07:26,961] []  INFO {org.wso2.carbon.user.core.common.UserStoreDeploymentManager} - Realm configuration of tenant:-1234  modified with /home/seyi-a/DevFactory/wso2/wso2is-7.3.0/repository/deployment/server/userstores/AGENT.xml
+TID: [] [] [2026-08-20 16:07:29,379] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.5.Final
+TID: [] [] [2026-08-20 16:07:36,640] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2026-08-20 16:07:36,641] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 9443
+TID: [] [] [2026-08-20 16:07:36,938] []  INFO {org.apache.tomcat.util.net.NioEndpoint.certificate} - Connector [https-jsse-nio-9443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [/home/seyi-a/DevFactory/wso2/wso2is-7.3.0/repository/resources/security/wso2carbon.p12] using alias [wso2carbon] with trust store [/home/seyi-a/DevFactory/wso2/wso2is-7.3.0/repository/resources/security/client-truststore.p12]
+TID: [] [] [2026-08-20 16:07:36,983] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://wso2.local:9443/myaccount
+TID: [] [] [2026-08-20 16:07:36,983] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://wso2.local:9443/console
+TID: [] [] [2026-08-20 16:07:36,984] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-7.3.0
+TID: [] [] [2026-08-20 16:07:36,985] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 42 sec
+TID: [] [] [2026-08-20 16:07:37,016] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2026-08-20 16:11:10,765] []  WARN {org.wso2.carbon.usage.data.receiver.core.a.a} - No subscription file found matching pattern 'subscription-*.json' in directory: /home/seyi-a/DevFactory/wso2/wso2is-7.3.0. Please place a subscription file at this location to enable usage data collection.
+TID: [] [] [2026-08-20 16:11:10,797] []  WARN {org.wso2.carbon.usage.data.receiver.core.util.DatabaseAvailabilityChecker} - Required table 'USAGE_COUNT' does not exist in the database. Usage data collection will be disabled until tables are created.
+TID: [-1234] [] [2026-08-20 16:31:21,157] [2b204147-084f-4e58-9a0f-9c42ec58fda6]  WARN {org.wso2.carbon.identity.application.authenticator.basicauth.BasicAuthenticator} - Tenant domain mismatch detected during authentication failure. User Tenant Domain: ibileltdofficial, Request Tenant Domain: carbon.super, isSaasApp: false
+TID: [-1234] [] [2026-08-20 16:36:10,321] [5fab9194-071b-4059-b61d-ad989fcf4833]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2026-08-20 22:07:24,048] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.PushedAuthReqCleanupService} - Pushed authorization request cleanup task is running successfully for removing expired requests
+TID: [] [] [2026-08-20 22:07:24,072] []  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data

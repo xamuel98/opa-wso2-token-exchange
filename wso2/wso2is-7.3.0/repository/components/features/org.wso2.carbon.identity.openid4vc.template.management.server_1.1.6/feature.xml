@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.openid4vc.template.management.server" label="WSO2 Carbon - OpenID4VC Template Management Server Feature" provider-name="%providerName" version="1.1.6">
+  <description>This feature contains the core bundles required for OpenID4VC Template Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.openid4vc.template.management" unpack="false" version="1.1.6"/>
+</feature>

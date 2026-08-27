@@ -1,0 +1,14 @@
+{
+    "forms": {
+        "profile": {
+            "generic": {
+                "placeholder": "Voer uw {{fieldName}} in",
+                "validation": {
+                    "duplicate": "{{field}} mag geen dubbele waarden bevatten.",
+                    "invalidFormat": "Het formaat van de ingevoerde {{field}} is onjuist.",
+                    "required": "{{fieldName}} is een verplicht veld"
+                }
+            }
+        }
+    }
+}

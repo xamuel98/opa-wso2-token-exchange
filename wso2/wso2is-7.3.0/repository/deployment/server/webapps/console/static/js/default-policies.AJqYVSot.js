@@ -1,0 +1,1 @@
+const c={privacyPolicy:"Privacy Policy",termsOfService:"Terms of Service"},e={"privacy-policy":c.privacyPolicy,"terms-of-service":c.termsOfService},r=[{name:c.privacyPolicy,slug:"privacy-policy"},{name:c.termsOfService,slug:"terms-of-service"}];export{c as D,e as a,r as b};
